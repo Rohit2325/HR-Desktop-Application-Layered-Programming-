@@ -1,0 +1,5 @@
+apply plugin:'java-library'
+dependencies {
+implementation files('../common/dist/hr-common.jar')
+implementation fileTree(include: '*.jar',dir:'libs');
+}
